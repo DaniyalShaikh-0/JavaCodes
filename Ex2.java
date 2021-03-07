@@ -29,6 +29,7 @@ public class Ex2 {
         }
         else
         {
+            fg=0;
             return (k.substring(0,4)+String.valueOf(mins)+':'+sec);
         }
         String s2 = "";
@@ -48,5 +49,6 @@ public class Ex2 {
             String s = in.nextLine();
             int n = in.nextInt();
             System.out.println(abcd(s,n));
+            in.close();
         }
 }

@@ -23,6 +23,7 @@ public static void main(String [] args){
         array[i]= in.nextInt();
     }
     System.out.println(abcd(array,n));
+    in.close();
     
 }
 }

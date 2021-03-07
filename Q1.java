@@ -25,6 +25,7 @@ public class Q1 {
         int k = 0;
         String s = in.nextLine();
         System.out.println(abcd(s));
+        in.close();
 
     }
 }

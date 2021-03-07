@@ -20,5 +20,6 @@ public class digitroot {
            ans=abcd(ans);
         }
         System.out.println(ans);
+        in.close();
     }
 }
